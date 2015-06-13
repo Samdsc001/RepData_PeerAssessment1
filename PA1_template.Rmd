@@ -1,9 +1,6 @@
 ---
 title: 'Reproducible Research: Peer Assessment 1'
-output:
-  html_document:
-    fig_caption: yes
-  word_document: default
+output: html_document
 ---
   
   
@@ -122,4 +119,3 @@ xyplot(steps ~ interval | day, data = filledData, type = "l", layout = c(1, 2), 
 
 ```
 
- 
